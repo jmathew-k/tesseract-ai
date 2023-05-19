@@ -1,41 +1,41 @@
 export const chatHistory = [
     {
         id: "0",
-        title: "Tesseract AI Kit",
+        title: "Uniswap MEV Bot",
         content:
-            "Write code (HTML, CSS and JS) for a simple form with 3 input fields and a dropdown with 2 buttons, cancel and send",
+            "Deploy a trading bot for WETH - UNI tokens",
         users: ["/images/avatar-1.jpg"],
         time: "Just now",
         url: "/education-feedback",
     },
     {
         id: "1",
-        title: "Welcome page with input",
+        title: "Trade NFT for a 25% profit",
         content:
-            "Write code (HTML, CSS and JS) for a simple form with 3 input fields and a dropdown with 2 buttons, cancel and send",
-        image: "/images/history-image.jpg",
+            "Execute Swap for ETH in any of the decentralized marketplaces",
+        image: "/images/azuki.png",
         users: ["/images/avatar-2.jpg"],
         time: "Just now",
         url: "/code-generation",
     },
     {
         id: "2",
-        title: "Photo retouch",
+        title: "Track NFT Floor",
         content:
-            "Write code (HTML, CSS and JS) for a simple form with 3 input fields and a dropdown with 2 buttons, cancel and send",
+            "Track this NFT across all marketplaces",
         users: [
             "/images/avatar.jpg",
             "/images/avatar-1.jpg",
             "/images/avatar-2.jpg",
         ],
         time: "Just now",
-        url: "/photo-editing",
+        url: "/nft-tracker",
     },
     {
         id: "3",
-        title: "Auto generate title",
+        title: "Tax Calculator",
         content:
-            "Write code (HTML, CSS and JS) for a simple form with 3 input fields and a dropdown with 2 buttons, cancel and send",
+            "Record quarterly profits for all trades",
         users: ["/images/avatar.jpg"],
         time: "Just now",
         url: "/audio-generation",

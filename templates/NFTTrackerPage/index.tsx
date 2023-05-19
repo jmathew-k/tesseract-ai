@@ -11,34 +11,34 @@ const PhotoEditingPage = () => {
 
     return (
         <Layout>
-            <Chat title="Photo retouching">
+            <Chat title="Track NFT Floor">
                 <Question
-                    content="Retouch this photo"
+                    content="Track this NFT across all marketplaces"
                     time="Just now"
-                    image="/images/photo.jpg"
+                    image="/images/pudgy.png"
                 />
                 <Answer loading />
                 <Answer time="Just now">
                     <Photo
-                        image="/images/photo-1.jpg"
-                        content="I have implemented modifications to the lighting, color, and sharpness parameters, resulting in the elimination of blemishes and imperfections present in the image."
+                        image="/images/pudgy.png"
+                        content="PUDGY PENGUIN #4609 isn't listed for sale in any of the popular marketplaces like OpenSea, Rarible, LooksRare or Blur."
                     />
                 </Answer>
                 <Question
-                    content="Looks great, let’s remove text on hoodie and make it blue"
+                    content="Alright, can you find similar PFPs that are currently listed ?"
                     time="Just now"
                 />
                 <Answer time="Just now">
                     <Photo
-                        image="/images/photo-2.jpg"
-                        content="You can adjust the color of hoodie manually"
+                        image="/images/pudgy3.png"
+                        content="Pudgy Penguin #818 is on Sale through OpenSea"
                         colorPicker
                     />
                 </Answer>
                 <Answer time="Just now">
                     <Photo
-                        image="/images/photo-3.jpg"
-                        content="Variation one"
+                        image="/images/pudgy2.png"
+                        content="Also, Pudgy Penguin #2893 through OpenSea"
                     />
                 </Answer>
             </Chat>

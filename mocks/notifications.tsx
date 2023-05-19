@@ -5,7 +5,7 @@ export const notifications = [
         content: (
             <>
                 <strong>Wilfred</strong> invited you to&nbsp;
-                <strong>Photo retouch</strong>
+                <strong>Track NFT Floor</strong>
             </>
         ),
         time: "1 mins. ago",
@@ -35,7 +35,7 @@ export const notifications = [
         content: (
             <>
                 <strong>Clementina</strong> invited you to&nbsp;
-                <strong>Photo retouch</strong>
+                <strong>Track NFT Floor</strong>
             </>
         ),
         time: "20 mins. ago",
@@ -65,7 +65,7 @@ export const notifications = [
         content: (
             <>
                 <strong>Dexter</strong> invited you to&nbsp;
-                <strong>Photo retouch</strong>
+                <strong>Track NFT Floor</strong>
             </>
         ),
         time: "2 hours ago",
@@ -80,7 +80,7 @@ export const notifications = [
         content: (
             <>
                 <strong>Wilfred</strong> invited you to&nbsp;
-                <strong>Photo retouch</strong>
+                <strong>Track NFT Floor</strong>
             </>
         ),
         time: "1 mins. ago",

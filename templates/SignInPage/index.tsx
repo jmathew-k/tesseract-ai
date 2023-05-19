@@ -9,11 +9,10 @@ const SignInPage = () => {
             <div className="relative shrink-0 w-[40rem] p-20 overflow-hidden 2xl:w-[37.5rem] xl:w-[30rem] xl:p-10 lg:hidden">
                 <div className="max-w-[25.4rem]">
                     <div className="mb-4 h2 text-n-1">
-                        Unlock the power of AI
+                        Autonomous AI Agents
                     </div>
                     <div className="body1 text-n-3">
-                        Chat with the smartest AI - Experience the power of AI
-                        with us
+                    Build AI Agents to Automate tasks in Web3
                     </div>
                 </div>
                 <div className="absolute top-52 left-5 right-5 h-[50rem] xl:top-24">

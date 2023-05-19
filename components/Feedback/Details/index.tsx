@@ -9,7 +9,7 @@ const Details = ({}: DetailsProps) => (
                 <Icon className="w-8 h-8 fill-[#52BA69]" name="codepen" />
             </div>
             <div className="grow pl-4">
-                <div className="mb-1 h6">Very good!</div>
+                <div className="mb-1 h6">Tax Report</div>
                 <div className="flex items-center">
                     <div className="flex">
                         <Icon

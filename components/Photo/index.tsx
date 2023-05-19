@@ -38,7 +38,7 @@ const Photo = ({ content, image, colorPicker }: PhotoProps) => (
                 title="Exporting 1 photo"
                 buttonInner={
                     <>
-                        <span>Export</span>
+                        <span>View Contract</span>
                         <Icon name="share" />
                     </>
                 }
@@ -47,7 +47,7 @@ const Photo = ({ content, image, colorPicker }: PhotoProps) => (
             </Actions>
             <button className="btn-white btn-small mr-4 mt-4 2xl:w-[calc(50%-1rem)] 2xl:mx-2 md:capitalize">
                 <span>
-                    <span className="md:hidden">Create</span> variation
+                    <span className="md:hidden">Visit</span> website
                 </span>
                 <Icon name="plus-circle-stroke" />
             </button>
@@ -57,7 +57,7 @@ const Photo = ({ content, image, colorPicker }: PhotoProps) => (
                 title="Adjust"
                 buttonInner={
                     <>
-                        <span>Adjust</span>
+                        <span>Explore</span>
                         <Icon name="share" />
                     </>
                 }
@@ -65,7 +65,7 @@ const Photo = ({ content, image, colorPicker }: PhotoProps) => (
                 <Adjust image={image} />
             </Actions>
             <button className="btn-white btn-small mt-4 2xl:w-[calc(50%-1rem)] 2xl:mx-2">
-                <span>Enhance</span>
+                <span>Etherscan</span>
                 <Icon name="scale" />
             </button>
         </div>

@@ -11,10 +11,10 @@ const EducationFeedbackPage = () => {
 
     return (
         <Layout>
-            <Chat title="Review test and provide feedback">
+            <Chat title="Crypto Tax Auditor">
                 <Question
-                    document="Student-test.pdf"
-                    content="Review this test and provide feedback on how it can be improved or adjusted to better measure the student's knowledge and understanding of the subject being tested."
+                    document="trades.csv"
+                    content="Review this financial years trades and calculate total taxable amount after deductions for the State of California"
                     time="Just now"
                 />
                 <Answer loading />

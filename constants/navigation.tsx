@@ -1,30 +1,30 @@
 export const navigation = [
     {
-        title: "Photo editing",
+        title: "NFT Floor Tracker",
         icon: "image-check",
         color: "#8E55EA",
-        url: "/photo-editing",
+        url: "/nft-tracker",
     },
     {
-        title: "Video generation",
+        title: "Trade Asset",
         icon: "play-circle",
         color: "#D84C10",
         url: "/video-generation",
     },
     {
-        title: "Education feedback",
+        title: "Crypto Tax Auditor",
         icon: "trophy",
         color: "#0084FF",
         url: "/education-feedback",
     },
     {
-        title: "Code generation",
+        title: "MEV Trading Bot",
         icon: "codepen",
         color: "#52BA69",
         url: "/code-generation",
     },
     {
-        title: "Audio generation",
+        title: "Lens Protocol Manager",
         icon: "music-note",
         color: "#E68A1D",
         url: "/audio-generation",

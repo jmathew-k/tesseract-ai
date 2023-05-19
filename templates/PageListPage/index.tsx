@@ -10,8 +10,8 @@ const items = [
         url: "/code-generation",
     },
     {
-        title: "Photo edition",
-        url: "/photo-editing",
+        title: "NFT tracker",
+        url: "/nft-tracker",
     },
     {
         title: "Video generation",
@@ -26,7 +26,7 @@ const items = [
         url: "/generation-socials-post",
     },
     {
-        title: "Education feedback",
+        title: "Crypto Tax Auditor",
         url: "/education-feedback",
     },
     {

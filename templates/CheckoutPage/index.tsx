@@ -11,7 +11,7 @@ const CheckoutPage = () => {
                         AI chat made affordable
                     </div>
                     <div className="body1 text-n-4 md:body2">
-                        Pricing Plans for every budget - Unlock the power of AI
+                        Pricing Plans for Agent Tier
                     </div>
                     <div className="flex justify-between mt-10 pt-16 border-t border-n-3 lg:block lg:mt-6 lg:pt-0 lg:border-0 md:mt-10 md:border-t md:pt-4 dark:border-n-5">
                         <div className="w-full max-w-[20.375rem] lg:max-w-full lg:mb-8">
