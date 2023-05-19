@@ -42,8 +42,7 @@ const Video = ({}: VideoProps) => {
     return (
         <div className="">
             <View />
-            <div className="mt-4">
-                Based on your requirement for Azuki #5936. I've charted out the optimum strategy for series of trades to reach a gross profit of 25%.
+            <div className="mt-4">Based on your requirement for Azuki #5936. Ive charted out the optimum strategy for series of trades to reach a gross profit of 25%.
             </div>
             <div className="flex flex-wrap">
                 <button className="btn-dark btn-small mr-4 mt-4">
