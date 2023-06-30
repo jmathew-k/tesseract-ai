@@ -11,20 +11,19 @@ const VideoGenerationPage = () => {
 
     return (
         <Layout>
-            <Chat title="Execute NFT Swap">
+            <Chat title="Track Token Price">
                 <Question
                     content={
                         <>
-                            <p>Execute a series of trades in give 25% profits in ETH for following asset</p>
+                            <p>What's the current price of $PEPE ?</p>
                             <br></br>
                             <p>
-                                Plan and execute a comprehensive arbitrage trading strategy to get 25% on the NFT asset:
+                                Analyze and give a summary on the price changes this year till date.
                             </p>
-                            <p> Azuki #5936</p>
+    
                         </>
                     }
                     time="Just now"
-                    image="/images/azuki.png"
                 />
                 <Answer loading />
                 <Answer time="Just now">

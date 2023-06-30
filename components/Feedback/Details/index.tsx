@@ -9,10 +9,10 @@ const Details = ({}: DetailsProps) => (
                 <Icon className="w-8 h-8 fill-[#52BA69]" name="codepen" />
             </div>
             <div className="grow pl-4">
-                <div className="mb-1 h6">Tax Report</div>
+                <div className="mb-1 h6">Active Layer 2 projects</div>
                 <div className="flex items-center">
                     <div className="flex">
-                        <Icon
+                        {/* <Icon
                             className="w-5 h-5 mr-2 fill-accent-5 md:w-4 md:h-4 md:mr-1"
                             name="star-rating"
                         />
@@ -31,10 +31,10 @@ const Details = ({}: DetailsProps) => (
                         <Icon
                             className="w-5 h-5 fill-n-4 md:w-4 md:h-4"
                             name="star-rating"
-                        />
+                        /> */}
                     </div>
                     <div className="ml-2 px-2 bg-n-3 rounded-lg base2 font-semibold text-n-7">
-                        4.85
+                       Total TVL - $9.57B
                     </div>
                 </div>
             </div>

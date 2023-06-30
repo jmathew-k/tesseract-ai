@@ -28,8 +28,8 @@ const Code = ({ items }: CodeProps) => {
     };
 
     return (
-        <div className="space-y-4">
-            <div className="rounded-xl overflow-hidden">
+			<div className='space-y-4'>
+				{/* <div className="rounded-xl overflow-hidden">
                 <div className="flex items-center pl-2 pr-4 py-1 bg-n-6">
                     <div className="flex mr-auto md:mr-0 md:w-full">
                         {items.map((item) => (
@@ -92,21 +92,54 @@ const Code = ({ items }: CodeProps) => {
                             </SyntaxHighlighter>
                         ))}
                 </div>
-            </div>
-            <div className="">
+            </div> */}
+				{/* <div className="">
                 Note: This is just an example of a simple HTML form. In a
                 real-world scenario, you would also want to include proper
                 validation and handling of the form data on the server side.
-            </div>
-            <div className="flex justify-between items-center pl-4 pr-1 py-1 rounded-xl bg-n-1 shadow-[0_0_1rem_0.5rem_rgba(0,0,0,0.07)] dark:bg-n-6/50">
-                I have created a project in your Codepen account
-                <button className="shrink-0 btn-dark btn-medium ml-4">
-                    <span>View</span>
-                    <Icon name="external-link" />
-                </button>
-            </div>
-        </div>
-    );
+            </div> */}
+				<div className='flex justify-between items-center pl-4 pr-1 py-1 rounded-xl bg-n-1 shadow-[0_0_1rem_0.5rem_rgba(0,0,0,0.07)] dark:bg-n-6/50'>
+					🚨 🚨 🚨 🚨 🚨 🚨 ₿ 4,295 (129,529,417 USD) transferred from
+					#Coinbase to unknown new wallet
+					<button className='shrink-0 btn-dark btn-medium ml-4'>
+						<span>View</span>
+						<Icon name='external-link' />
+					</button>
+				</div>
+				<div className='flex justify-between items-center pl-4 pr-1 py-1 rounded-xl bg-n-1 shadow-[0_0_1rem_0.5rem_rgba(0,0,0,0.07)] dark:bg-n-6/50'>
+					🚨 🚨 🚨 ₿ 1,971 (59,557,715 USD) transferred from unknown wallet
+					to #Coinbase
+					<button className='shrink-0 btn-dark btn-medium ml-4'>
+						<span>View</span>
+						<Icon name='external-link' />
+					</button>
+				</div>
+				<div className='flex justify-between items-center pl-4 pr-1 py-1 rounded-xl bg-n-1 shadow-[0_0_1rem_0.5rem_rgba(0,0,0,0.07)] dark:bg-n-6/50'>
+					🚨 🚨 🚨 ₿ 2,073 (62,646,710 USD) transferred from unknown wallet
+					to #Coinbase
+					<button className='shrink-0 btn-dark btn-medium ml-4'>
+						<span>View</span>
+						<Icon name='external-link' />
+					</button>
+				</div>
+				<div className='flex justify-between items-center pl-4 pr-1 py-1 rounded-xl bg-n-1 shadow-[0_0_1rem_0.5rem_rgba(0,0,0,0.07)] dark:bg-n-6/50'>
+					🚨 🚨 🚨 ₿ 1,971 (59,557,715 USD) transferred from unknown wallet to
+					#Coinbase
+					<button className='shrink-0 btn-dark btn-medium ml-4'>
+						<span>View</span>
+						<Icon name='external-link' />
+					</button>
+				</div>
+				<div className='flex justify-between items-center pl-4 pr-1 py-1 rounded-xl bg-n-1 shadow-[0_0_1rem_0.5rem_rgba(0,0,0,0.07)] dark:bg-n-6/50'>
+					🚨 🚨 🚨 🚨 🚨 🚨 🚨 ₿ 4,999 (150,809,456 USD) transferred from
+					unknown wallet to unknown wallet
+					<button className='shrink-0 btn-dark btn-medium ml-4'>
+						<span>View</span>
+						<Icon name='external-link' />
+					</button>
+				</div>
+			</div>
+		)
 };
 
 export default Code;

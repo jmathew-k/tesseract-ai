@@ -6,7 +6,7 @@ import View from "./View";
 const languages = [
     {
         id: "0",
-        title: "Blur",
+        title: "Index 1",
     },
     {
         id: "1",
@@ -42,7 +42,8 @@ const Video = ({}: VideoProps) => {
     return (
         <div className="">
             <View />
-            <div className="mt-4">Based on your requirement for Azuki #5936. Ive charted out the optimum strategy for series of trades to reach a gross profit of 25%.
+            <div className="mt-4">Price: $0.00000161 | Market Cap: $632M | Volume(24): $194M | Volume/Market Cap(24h): 31.00%
+
             </div>
             <div className="flex flex-wrap">
                 <button className="btn-dark btn-small mr-4 mt-4">

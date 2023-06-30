@@ -13,12 +13,12 @@ const CodeGenerationPage = () => {
 
     return (
         <Layout>
-            <Chat title="Create welcome form">
+            <Chat title="Monitor BTC Whale Transfers">
                 <Question
-                    content="Write code (HTML, CSS and JS) for a simple welcome page and form with 3 input fields and a dropdown with 2 buttons, cancel and send, then run test with my Codepen project."
+                    content="What are high value BTC transfers in the last 24 hours?"
                     time="Just now"
                 />
-                <Answer loading />
+                {/* <Answer loading /> */}
                 <Answer time="Just now">
                     <Code items={writeCodeChat} />
                 </Answer>

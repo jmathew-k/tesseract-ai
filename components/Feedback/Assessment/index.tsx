@@ -3,33 +3,33 @@ import Item from "./Item";
 const items = [
     {
         id: "0",
-        number: 28,
-        incorrect: "which",
-        correct: "whose",
+        number: 1,
+        incorrect: "Arbitrum One",
+        correct: "Optimistic Rollup",
     },
     {
         id: "1",
-        number: 42,
-        incorrect: "getting annoyed",
-        correct: "showing agreement",
+        number: 2,
+        incorrect: "OP Mainnet",
+        correct: "Optimistic Rollup",
     },
     {
         id: "2",
-        number: 56,
-        incorrect: "public",
-        correct: "unknown",
+        number: 3,
+        incorrect: "zkSync Era",
+        correct: "ZK Rollup",
     },
     {
         id: "3",
-        number: 60,
-        incorrect: "Newyork",
-        correct: "Sydney",
+        number: 4,
+        incorrect: "dYdX",
+        correct: "ZK Rollup",
     },
     {
         id: "4",
-        number: 80,
-        incorrect: "careless",
-        correct: "reliable",
+        number: 5,
+        incorrect: "Immutable X",
+        correct: "Validium",
     },
 ];
 
@@ -41,13 +41,13 @@ const Assessment = ({}: AssessmentProps) => (
             <div className="table-row caption1 text-n-4 md:flex">
                 <div className="table-cell pl-5 py-2 md:hidden">#</div>
                 <div className="table-cell pl-5 py-2 md:w-1/2 md:pr-2">
-                    Incorrect answer (5)
+                    Name (5)
                 </div>
                 <div className="table-cell pl-5 py-2 md:w-1/2 md:pl-0 md:pr-5">
-                    Correct answer
+                    Technology
                 </div>
                 <div className="table-cell pl-5 pr-5 py-2 text-center md:hidden">
-                    How
+                    TVL
                 </div>
             </div>
             {items.map((x) => (

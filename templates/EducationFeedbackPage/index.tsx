@@ -11,10 +11,10 @@ const EducationFeedbackPage = () => {
 
     return (
         <Layout>
-            <Chat title="Crypto Tax Auditor">
+            <Chat title="TVL in Ethereum Layer 2">
                 <Question
-                    document="trades.csv"
-                    content="Review this financial years trades and calculate total taxable amount after deductions for the State of California"
+                    // document="trades.csv"
+                    content="What's the top 5 Ethereum Layer 2 scaling solutions by total locked value ?"
                     time="Just now"
                 />
                 <Answer loading />

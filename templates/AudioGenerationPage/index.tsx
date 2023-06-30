@@ -12,7 +12,7 @@ const AudioGenerationPage = () => {
 
     return (
         <Layout>
-            <Chat title="Hello">
+            <Chat title="Lens Protocol Ecosystem Data ">
                 <Question content="Hello 🙂" time="Just now" />
                 <Answer>Hello! How can I help you today?</Answer>
                 <Question content="Show me what you can do" time="Just now" />

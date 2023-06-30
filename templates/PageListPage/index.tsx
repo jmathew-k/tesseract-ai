@@ -26,7 +26,7 @@ const items = [
         url: "/generation-socials-post",
     },
     {
-        title: "Crypto Tax Auditor",
+        title: "List the top 5 Layer 2 scaling solution",
         url: "/education-feedback",
     },
     {

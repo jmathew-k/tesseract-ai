@@ -12,15 +12,15 @@ export const chatHistory = [
         id: "1",
         title: "Trade NFT for a 25% profit",
         content:
-            "Execute Swap for ETH in any of the decentralized marketplaces",
-        image: "/images/azuki.png",
+            "What's the ",
+        image: "/images/pepe-price-1.png",
         users: ["/images/avatar-2.jpg"],
         time: "Just now",
         url: "/code-generation",
     },
     {
         id: "2",
-        title: "Track NFT Floor",
+        title: "Scan NFT Floor",
         content:
             "Track this NFT across all marketplaces",
         users: [
