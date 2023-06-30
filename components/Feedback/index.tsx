@@ -15,7 +15,7 @@ const Feedback = ({}: FeedbackProps) => (
 				<strong>Arbitrum One:</strong> is an Optimistic Rollup that
 				aims to feel exactly like interacting with Ethereum, but with
 				transactions costing a fraction of what they do on L1. Centralized
-				Sequencer receives user's transactions and regularly sends the
+				Sequencer receives users transactions and regularly sends the
 				transaction batch to mainnet Ethereum.
 			</p>
 			<p className='mb-4'>
