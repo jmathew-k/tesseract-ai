@@ -27,7 +27,7 @@ const AudioGenerationPage = () => {
                             <p>
                                 Introducing &quot;Tesseract&quot;, an AI-powered
                                 product that can turn any written script into
-                                high-quality audio. Using advanced natural
+                                high-quality audio Using advanced natural
                                 language processing and text-to-speech
                                 technology, Speechify can generate realistic and
                                 natural-sounding voices in multiple languages,
